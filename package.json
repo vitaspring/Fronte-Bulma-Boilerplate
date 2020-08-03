@@ -1,0 +1,24 @@
+{
+  "name": "bulma-webpack-starter",
+  "version": "0.0.1",
+  "description": "This is a foundation for starting a project with Bulma, Babel, Webpack and SASS",
+  "scripts": {
+    "dev": "webpack",
+    "build": "webpack -p",
+    "watch": "webpack --watch --progress"
+  },
+  "author": "Lucas Caires",
+  "dependencies": {
+    "@babel/core": "^7.0.0-beta.37",
+    "@babel/preset-env": "^7.0.0-beta.37",
+    "@fortawesome/fontawesome-free": "^5.13.1",
+    "babel-loader": "^8.0.0-beta.0",
+    "bulma": "^0.9.0",
+    "css-loader": "^0.28.8",
+    "extract-text-webpack-plugin": "^3.0.2",
+    "jquery": "^3.5.1",
+    "node-sass": "^4.7.2",
+    "sass-loader": "^6.0.6",
+    "webpack": "^3.10.0"
+  }
+}
